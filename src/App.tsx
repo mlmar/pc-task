@@ -2,6 +2,7 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Intro } from "./components/Intro";
+import { Performances } from "./components/Performances";
 import { VideoCover } from "./components/VideoCover";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <Hero />
             <VideoCover />
             <Intro />
+            <Performances />
         </main>
     );
 }
