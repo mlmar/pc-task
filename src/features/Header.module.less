@@ -1,0 +1,75 @@
+@import url("../Base.module.less");
+
+.header {
+    .flex;
+    .uppercase;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 0;
+    height: 6em;
+    background: var(--bg-dark);
+    // box-shadow: 10px 10px 10px 10px rgba(0, 238, 255, 0.392);
+}
+
+.headerRight {
+    .flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.figure {
+    .flex;
+    gap: 0.5em;
+    align-items: center;
+    height: 2.5em;
+
+    > img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    > figcaption {
+        color: var(--fg-blue);
+        width: 10em;
+    }
+}
+
+.nav {
+    .flex;
+
+    > ul {
+        .flex;
+        list-style: none;
+        gap: 3em;
+
+        > li {
+            a {
+                text-wrap: nowrap;
+                text-decoration: none;
+                color: var(--fg-light);
+            }
+        }
+    }
+}
+
+.links {
+    .flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.ticketsSoonButton {
+    background: var(--bg-yellow);
+    color: var(--fg-dark);
+    text-decoration: none;
+    text-wrap: nowrap;
+    padding: 1em 2em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.icon {
+    filter: invert(1);
+    font-size: 1.6em;
+}

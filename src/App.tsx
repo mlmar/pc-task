@@ -1,9 +1,9 @@
 import "./App.css";
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { Intro } from "./components/Intro";
-import { Performances } from "./components/Performances";
-import { VideoCover } from "./components/VideoCover";
+import { Header } from "./features/Header";
+import { Hero } from "./features/Hero";
+import { Intro } from "./features/Intro";
+import { Performances } from "./features/Performances";
+import { VideoCover } from "./features/VideoCover";
 
 function App() {
     return (
