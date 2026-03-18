@@ -1,0 +1,42 @@
+@import url("../Base.module.less");
+
+.intro {
+    .flex;
+
+    > figure {
+        flex-basis: 50%;
+        img {
+            .img-fit;
+        }
+    }
+
+    > article {
+        .flex-col;
+        font-size: 1.58em;
+        flex-basis: 50%;
+        gap: 1.4em;
+        background: var(--bg-dark);
+        padding: 6em;
+
+        > h2 {
+            .uppercase;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+.followButton {
+    .uppercase;
+    outline: 1px solid var(--fg-light);
+    color: var(--fg-light);
+    text-decoration: none;
+    text-wrap: nowrap;
+    font-size: 0.8em;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    width: fit-content;
+}

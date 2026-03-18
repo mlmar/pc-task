@@ -1,6 +1,8 @@
+import styles from "./Intro.module.less";
+
 export function Intro() {
     return (
-        <section>
+        <section className={styles.intro}>
             <figure>
                 <img src="/intro.webp" alt="Moustache Man with sunglasses" />
             </figure>
@@ -16,11 +18,14 @@ export function Intro() {
                     quantity of disco balls set the scene as we boogied into the
                     night for a party unanimously known as the best Bash of all
                     time. Come Saturday, March 23rd, we'll be leveling up yet
-                    again. Set tuned&em;don't want to miss this one! Following
-                    @TheMoustacheBash and subscribe to our email list to be the
-                    first to know when tickets go on sale.
+                    again. Set tuned&mdash;don't want to miss this one!
+                    Following <a href="https://google.com">@TheMoustacheBash</a>{" "}
+                    and subscribe to our email list to be the first to know when
+                    tickets go on sale.
                 </p>
-                <a> Follow on Instagram </a>
+                <a className={styles.followButton} href="https://google.com">
+                    Follow on Instagram
+                </a>
             </article>
         </section>
     );
