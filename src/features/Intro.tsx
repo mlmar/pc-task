@@ -4,7 +4,17 @@ export function Intro() {
     return (
         <section className={styles.intro}>
             <figure>
-                <img src="/intro.webp" alt="Moustache Man with sunglasses" />
+                <img
+                    src="/intro.webp"
+                    alt="Moustache Man with sunglasses"
+                    loading="lazy"
+                />
+                <img
+                    className={styles.sticker}
+                    src="/sticker.webp"
+                    alt="Sticker"
+                    loading="lazy"
+                />
             </figure>
             <article>
                 <h2>

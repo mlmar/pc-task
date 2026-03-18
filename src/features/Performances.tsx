@@ -11,7 +11,12 @@ export function Performances() {
             <h2> Feature 4 stages with live performances by: </h2>
             <ul>
                 {performances.map((performance) => {
-                    return <PerformanceCard {...performance} />;
+                    return (
+                        <PerformanceCard
+                            {...performance}
+                            key={performance.name}
+                        />
+                    );
                 })}
             </ul>
         </section>
@@ -31,7 +36,7 @@ function PerformanceCard({
     return (
         <li className={styles.performancesCard}>
             <figure>
-                <img src={imgUrl} alt={name} />
+                <img src={imgUrl} alt={name} loading="lazy" />
             </figure>
             <h3>{name}</h3>
             <p>{description}</p>

@@ -12,7 +12,11 @@ export function VideoCover() {
             </h2>
             <a href="https://google.com">
                 <figure>
-                    <img src="/video-cover.webp" alt="Video Cover" />
+                    <img
+                        src="/video-cover.webp"
+                        alt="Video Cover"
+                        loading="lazy"
+                    />
                     <figcaption> View More on YouTube &#9654;</figcaption>
                 </figure>
             </a>

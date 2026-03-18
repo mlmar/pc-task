@@ -11,11 +11,13 @@ export function Hero() {
                 data-landscape
                 src="/hero.jpg"
                 alt="The Moustache Bash in San Diego"
+                loading="eager"
             />
             <img
                 data-mobile
                 src="/hero-mobile.jpg"
                 alt="The Moustache Bash in San Diego"
+                loading="eager"
             />
         </section>
     );

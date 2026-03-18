@@ -25,7 +25,11 @@ export function Header() {
     return (
         <header className={styles.header}>
             <figure className={styles.figure}>
-                <img src="/moustache-bash.svg" alt="Moustache Bash" />
+                <img
+                    src="/moustache-bash.svg"
+                    alt="Moustache Bash"
+                    loading="eager"
+                />
                 <figcaption>
                     Upcoming bash in San Diego March 23, 2024{" "}
                 </figcaption>

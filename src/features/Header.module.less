@@ -5,23 +5,19 @@
     .uppercase;
     align-items: center;
     justify-content: space-around;
-    padding: 1em 0;
     height: 6em;
     background: var(--bg-dark);
     // box-shadow: 10px 10px 10px 10px rgba(0, 238, 255, 0.392);
 }
 
-.headerRight {
-    .flex;
-    align-items: center;
-    gap: 3em;
-}
-
 .figure {
     .flex;
     gap: 0.5em;
+    height: 100%;
+    max-width: 20em;
+    min-width: 20em;
+    height: 4em;
     align-items: center;
-    height: 2.5em;
 
     > img {
         .img-fit;
@@ -29,8 +25,13 @@
 
     > figcaption {
         color: var(--fg-blue);
-        width: 10em;
     }
+}
+
+.headerRight {
+    .flex;
+    align-items: center;
+    gap: 3em;
 }
 
 .nav {

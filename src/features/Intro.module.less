@@ -5,7 +5,8 @@
 
     > figure {
         flex-basis: 50%;
-        img {
+        position: relative;
+        img:first-child {
             .img-fit;
         }
     }
@@ -40,4 +41,18 @@
     padding: 0.5em 2em;
     border-radius: 2em;
     width: fit-content;
+}
+
+.sticker {
+    position: absolute;
+    right: 8em;
+    bottom: 2em;
+    width: 16em;
+    height: 16em;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        .flex-col;
+    }
 }

@@ -13,7 +13,7 @@
     - [x] Mobile hero section
 - [x] Video cover section
 - [x] Intro section
-    - [ ] "TICKETS DROPPING SOON" peeling sticker
+    - [x] "TICKETS DROPPING SOON" peeling sticker
     - [x] Reflection title, paragraph, follow button
 - [x] Lineup section
 - [x] Performances section
