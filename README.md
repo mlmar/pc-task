@@ -16,12 +16,11 @@
     - [ ] "TICKETS DROPPING SOON" peeling sticker
     - [x] Reflection title, paragraph, follow button
 - [x] Lineup section
-- [ ] Performances section
-    - [ ] Card component
-        - [ ] Image with white edges
-        - [ ] Name
-        - [ ] Description
-        - [ ] Social media buttons
+- [x] Performances section
+    - [x] Card component
+        - [x] Name
+        - [x] Description
+        - [x] Social media buttons
 - [ ] Bottom right blue cloud thing
 
 ## Development

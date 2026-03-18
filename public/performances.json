@@ -6,8 +6,7 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "Moodymann",
@@ -16,8 +15,7 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "High Fade",
@@ -26,8 +24,7 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "Young Franco",
@@ -36,8 +33,7 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "Natasha Diggs",
@@ -46,18 +42,24 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "Family Band",
         "imgUrl": "band_images/06_FamilyBand.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "instagramUrl": "https://google.com",
+        "youtubeUrl": "https://google.com"
+    },
+
+    {
+        "name": "Never Dull",
+        "imgUrl": "band_images/08_NeverDull.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "B Sections",
@@ -66,37 +68,18 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
-    },
-    {
-        "name": "Never Dull",
-        "imgUrl": "band_images/08_NeverDull.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
-        "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "3Kelves B2B Dylan C. Greene",
         "imgUrl": "band_images/09_3KelvesB2B.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
-        "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "Discotoshi",
         "imgUrl": "band_images/10_Discotoshi.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
         "soundcloudUrl": "https://google.com"
     },
     {
@@ -106,37 +89,23 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "Abby Normal",
         "imgUrl": "band_images/12_AbbyNormal.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
-        "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "Groovewell",
         "imgUrl": "band_images/13_Groovewell.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
-        "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "He2She",
         "imgUrl": "band_images/14_He2She.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
         "soundcloudUrl": "https://google.com"
     },
     {
@@ -146,27 +115,18 @@
         "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
         "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "websiteUrl": "https://google.com"
     },
     {
         "name": "DJ M3",
         "imgUrl": "band_images/16_DJM3.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
-        "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
-        "soundcloudUrl": "https://google.com"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "Cool Sexy DJ",
         "imgUrl": "band_images/17_CoolSexyDJ.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "spotifyUrl": "https://google.com",
         "instagramUrl": "https://google.com",
-        "youtubeUrl": "https://google.com",
-        "websiteUrl": "https://google.com",
         "soundcloudUrl": "https://google.com"
     }
 ]

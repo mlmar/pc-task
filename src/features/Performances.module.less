@@ -1,0 +1,37 @@
+@import url("../Base.module.less");
+
+.performances {
+    .flex-col;
+    align-items: center;
+    padding: var(--padding-size);
+    gap: var(--padding-size);
+
+    > h2 {
+        .uppercase;
+        font-weight: 100;
+    }
+
+    > ul {
+        display: grid;
+        gap: 2em;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.performancesCard {
+    .flex-col;
+    gap: 0.5em;
+    img {
+        .img-fit;
+    }
+
+    nav {
+        .flex;
+        gap: 0.8em;
+
+        > a {
+            height: 2em;
+            min-width: fit-content;
+        }
+    }
+}

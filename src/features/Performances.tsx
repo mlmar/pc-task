@@ -1,11 +1,13 @@
+import styles from "./Performances.module.less";
 import { usePerformances } from "../hooks/usePerformances";
 import type { Performance } from "../types/Performance";
+import { IconLink } from "../components/IconLink";
 
 export function Performances() {
     const performances = usePerformances();
 
     return (
-        <section>
+        <section className={styles.performances}>
             <h2> Feature 4 stages with live performances by: </h2>
             <ul>
                 {performances.map((performance) => {
@@ -27,18 +29,48 @@ function PerformanceCard({
     soundcloudUrl,
 }: Performance) {
     return (
-        <li>
+        <li className={styles.performancesCard}>
             <figure>
                 <img src={imgUrl} alt={name} />
             </figure>
             <h3>{name}</h3>
             <p>{description}</p>
             <nav>
-                {spotifyUrl && <a href={spotifyUrl}> Spotify </a>}
-                {instagramUrl && <a href={instagramUrl}> IG </a>}
-                {youtubeUrl && <a href={youtubeUrl}> YT </a>}
-                {websiteUrl && <a href={websiteUrl}> Web </a>}
-                {soundcloudUrl && <a href={soundcloudUrl}> SC </a>}
+                {spotifyUrl && (
+                    <IconLink
+                        src="/icons/spotify-icon.webp"
+                        href={spotifyUrl}
+                        alt="spotify"
+                    />
+                )}
+                {instagramUrl && (
+                    <IconLink
+                        src="/icons/ig-2-icon.webp"
+                        href={instagramUrl}
+                        alt="instagram"
+                    />
+                )}
+                {youtubeUrl && (
+                    <IconLink
+                        src="/icons/yt-icon.webp"
+                        href={youtubeUrl}
+                        alt="youtube"
+                    />
+                )}
+                {websiteUrl && (
+                    <IconLink
+                        src="/icons/web-icon.webp"
+                        href={websiteUrl}
+                        alt="website"
+                    />
+                )}
+                {soundcloudUrl && (
+                    <IconLink
+                        src="/icons/soundcloud-icon.svg"
+                        href={soundcloudUrl}
+                        alt="soundcloud"
+                    />
+                )}
             </nav>
         </li>
     );
