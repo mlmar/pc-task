@@ -1,0 +1,36 @@
+@import url("../Base.module.less");
+
+.videoCover {
+    .flex;
+    padding: 0 var(--padding-size) 4em var(--padding-size);
+    justify-content: center;
+
+    > h2 {
+        .uppercase;
+        color: var(--fg-dark);
+        flex-basis: 40%;
+        font-size: 3em;
+        line-height: 1.3;
+    }
+
+    > a {
+        .flex;
+        > figure {
+            .flex-col;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
+
+            > img {
+                .img-fit;
+            }
+
+            > figcaption {
+                .uppercase;
+                color: var(--fg-red);
+                font-weight: var(--weight-bold);
+                font-size: 1.4em;
+            }
+        }
+    }
+}
