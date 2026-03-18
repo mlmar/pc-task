@@ -11,11 +11,11 @@
 - [x] Hero section
     - [x] Wide hero section
     - [x] Mobile hero section
-- [ ] Video cover section
-- [ ] Intro section
+- [x] Video cover section
+- [x] Intro section
     - [ ] "TICKETS DROPPING SOON" peeling sticker
-    - [ ] Reflection title, paragraph, follow button
-- [ ] Lineup section
+    - [x] Reflection title, paragraph, follow button
+- [x] Lineup section
 - [ ] Performances section
     - [ ] Card component
         - [ ] Image with white edges
