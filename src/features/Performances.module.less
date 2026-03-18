@@ -5,6 +5,8 @@
     align-items: center;
     padding: var(--padding-size);
     gap: var(--padding-size);
+    background: white;
+    position: relative;
 
     > h2 {
         .uppercase;
@@ -15,7 +17,15 @@
         display: grid;
         gap: 2em;
         grid-template-columns: 1fr 1fr;
+        z-index: 2;
     }
+}
+
+.blueCorner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1000px) {

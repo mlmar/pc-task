@@ -19,6 +19,11 @@ export function Performances() {
                     );
                 })}
             </ul>
+            <img
+                className={styles.blueCorner}
+                src="/blue-thing.webp"
+                alt="Blue"
+            />
         </section>
     );
 }

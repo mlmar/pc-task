@@ -1,4 +1,3 @@
-import "./App.css";
 import { Header } from "./features/Header";
 import { Hero } from "./features/Hero";
 import { Intro } from "./features/Intro";

@@ -46,7 +46,7 @@ body {
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    background-color: white;
+    background-color: var(--bg-dark);
     color: var(--fg-dark);
 }
 
@@ -71,5 +71,9 @@ a:visited {
 
     *[data-mobile] {
         display: flex;
+    }
+
+    :root {
+        --padding-size: 1em;
     }
 }

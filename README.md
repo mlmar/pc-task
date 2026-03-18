@@ -7,7 +7,6 @@
     - [x] Navigation Links
     - [x] Tickets button
     - [x] Social media buttons
-    - [ ] Blue shadow?
 - [x] Hero section
     - [x] Wide hero section
     - [x] Mobile hero section
@@ -21,7 +20,7 @@
         - [x] Name
         - [x] Description
         - [x] Social media buttons
-- [ ] Bottom right blue cloud thing
+- [x] Bottom right blue cloud thing
 
 ## Development
 
