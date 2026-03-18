@@ -21,6 +21,9 @@ const navItems: { label: string; url: string }[] = [
     },
 ];
 
+/**
+ * Header with Moustache image, caption, nav links and social media icons
+ */
 export function Header() {
     return (
         <header className={styles.header}>
@@ -31,7 +34,7 @@ export function Header() {
                     loading="eager"
                 />
                 <figcaption>
-                    Upcoming bash in San Diego March 23, 2024{" "}
+                    Upcoming bash in San Diego March 23, 2024
                 </figcaption>
             </figure>
             <div className={styles.headerRight}>

@@ -29,7 +29,7 @@ export function Intro() {
                     night for a party unanimously known as the best Bash of all
                     time. Come Saturday, March 23rd, we'll be leveling up yet
                     again. Set tuned&mdash;don't want to miss this one!
-                    Following <a href="https://google.com">@TheMoustacheBash</a>{" "}
+                    Following <a href="https://google.com">@TheMoustacheBash</a>
                     and subscribe to our email list to be the first to know when
                     tickets go on sale.
                 </p>

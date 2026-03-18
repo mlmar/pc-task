@@ -22,6 +22,13 @@
         - [x] Social media buttons
 - [x] Bottom right blue cloud thing
 
+# Thought Process
+
+1. Create the general layout without any styles and icons.
+2. Create a component and style module for each section (under `/features`)
+3. Simulate fetching performances with `usePerformances` hook by fetching from public json file
+4. Implement styles
+
 ## Development
 
 Clone this repo and run the following:

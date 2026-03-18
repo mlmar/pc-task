@@ -2,7 +2,7 @@ import styles from "./Hero.module.less";
 
 /**
  * Hero section
- *  TODO toggle between images with media query?
+ *   Toggles between landscape and mobile images with media query
  */
 export function Hero() {
     return (
