@@ -2,14 +2,15 @@
 
 ## General Tasks (Top to bottom)
 
-- [ ] Header
-    - [ ] Moustache image and description
-    - [ ] Navigation Links
-    - [ ] Tickets button
-    - [ ] Social media buttons
-- [ ] Hero section
-    - [ ] Wide hero section
-    - [ ] Mobile hero section
+- [x] Header
+    - [x] Moustache image and description
+    - [x] Navigation Links
+    - [x] Tickets button
+    - [x] Social media buttons
+    - [ ] Blue shadow?
+- [x] Hero section
+    - [x] Wide hero section
+    - [x] Mobile hero section
 - [ ] Video cover section
 - [ ] Intro section
     - [ ] "TICKETS DROPPING SOON" peeling sticker
