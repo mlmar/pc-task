@@ -29,12 +29,12 @@
 3. Simulate fetching performances with `usePerformances` hook by fetching from public json file
 4. Implement styles
 
-- I spliced icons from the layout image. Right now they're a bit large at 100x100px but ideally would use smaller svgs.
+- Spliced icons from the layout image. Right now they're a bit large at 100x100px but ideally would use smaller svgs.
 - Asked AI what font was used and it suggested Futura, Oswald, and Montseratt. It's not quite the same so the font weights differ in some areas.
-- I used an HTML entity code for the red arrow, again I ideally would use an SVG for all icons.
+- Used an HTML entity code for the red arrow, ideally would use an SVG for all icons.
 - For mobile, I opted to stack the intro section vertically with `flex-direction: column`, changed the performances grid to show 1 column instead of 2, and enabled overflow-x on the header.
-    - The PeopleConnect website uses 480px as the max-width media query so I copied that.
-    - Ideally, a hamburger menu could be implemented to turn the toolbar into a dropdown.
+    - Used 768px as the max-width media query.
+    - A hamburger menu could be implemented to turn the toolbar into a dropdown.
 
 ## Development
 

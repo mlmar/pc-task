@@ -17,7 +17,9 @@ export function VideoCover() {
                         alt="Video Cover"
                         loading="lazy"
                     />
-                    <figcaption> View More on YouTube &#9654;</figcaption>
+                    <figcaption>
+                        View More on YouTube <span>&#9654;</span>
+                    </figcaption>
                 </figure>
             </a>
         </section>

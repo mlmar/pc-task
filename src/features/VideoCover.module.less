@@ -1,4 +1,4 @@
-@import url("../Base.module.less");
+@import url("../base.module.less");
 
 .videoCover {
     .flex;
@@ -33,18 +33,25 @@
             }
 
             > figcaption {
+                .flex;
                 .uppercase;
+                align-items: center;
+                gap: 0.8em;
                 color: var(--fg-red);
                 font-family: var(--font-title);
                 font-weight: 400;
-                font-size: 1.4em;
+                font-size: 1.6em;
                 text-decoration: none;
+
+                > span {
+                    font-size: 0.8em;
+                }
             }
         }
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .videoCover {
         > h2 {
             font-size: 2.5em;

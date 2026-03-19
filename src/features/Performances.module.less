@@ -1,11 +1,11 @@
-@import url("../Base.module.less");
+@import url("../base.module.less");
 
 .performances {
     .flex-col;
     align-items: center;
     padding: var(--padding-size);
     gap: var(--padding-size);
-    background: white;
+    background: var(--bg-white);
     position: relative;
 
     > h2 {
@@ -17,13 +17,15 @@
 
     > ul {
         display: grid;
-        gap: 2em;
         grid-template-columns: 1fr 1fr;
+        row-gap: var(--padding-size);
+        column-gap: calc(var(--padding-size) / 2);
         z-index: 2;
     }
 }
 
 .blueCorner {
+    height: 6em;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -58,13 +60,13 @@
         gap: 0.8em;
 
         > a {
-            height: 2em;
+            height: 2.5em;
             min-width: fit-content;
         }
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .performances {
         > ul {
             grid-template-columns: 1fr;
