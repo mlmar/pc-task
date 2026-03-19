@@ -13,27 +13,41 @@
 
     > article {
         .flex-col;
-        font-size: 1.58em;
         flex-basis: 50%;
         gap: 1.4em;
         color: var(--fg-light);
-        background: var(--bg-dark);
-        padding: calc(var(--padding-size));
+        background: black;
+        justify-content: center;
+        padding: calc(var(--padding-size) * 1.5);
 
         > h2 {
             .uppercase;
+            font-size: 1.9em;
+            font-family: var(--font-title);
+            font-weight: 500;
+            letter-spacing: var(--letter-spacing-alt);
+            line-height: 1.2;
+        }
+
+        > p {
+            font-family: var(--font-paragraph);
+            a {
+                font-weight: inherit;
+                color: inherit;
+            }
         }
 
         a {
             text-decoration: none;
             color: inherit;
+            font-weight: 600;
         }
     }
 }
 
 .followButton {
     .uppercase;
-    outline: 1px solid var(--fg-light);
+    outline: 0.2em solid var(--fg-light);
     color: var(--fg-light);
     text-decoration: none;
     text-wrap: nowrap;
@@ -45,13 +59,13 @@
 
 .sticker {
     position: absolute;
-    right: 8em;
+    right: 6em;
     bottom: 2em;
-    width: 16em;
-    height: 16em;
+    width: 10em;
+    height: 10em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
     .intro {
         .flex-col;
     }

@@ -15,6 +15,9 @@
 
     font-size: 12px;
     line-height: 1.4;
+    --letter-spacing-alt: 0.04em;
+    --font-title: "Oswald", sans-serif;
+    --font-paragraph: "Montserrat", Futura, system-ui;
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -31,8 +34,6 @@
 
     --weight-bold: 600;
     --padding-size: 4em;
-
-    --mobile-width: 1000px;
 }
 
 * {
@@ -69,16 +70,12 @@ a:visited {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
     *[data-landscape] {
         display: none;
     }
 
     *[data-mobile] {
         display: flex;
-    }
-
-    :root {
-        --padding-size: 1em;
     }
 }
