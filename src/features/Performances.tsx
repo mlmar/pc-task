@@ -53,6 +53,13 @@ function PerformanceCard({
                         alt="spotify"
                     />
                 )}
+                {soundcloudUrl && (
+                    <IconLink
+                        src="/icons/soundcloud-icon.svg"
+                        href={soundcloudUrl}
+                        alt="soundcloud"
+                    />
+                )}
                 {instagramUrl && (
                     <IconLink
                         src="/icons/ig-2-icon.webp"
@@ -72,13 +79,6 @@ function PerformanceCard({
                         src="/icons/web-icon.webp"
                         href={websiteUrl}
                         alt="website"
-                    />
-                )}
-                {soundcloudUrl && (
-                    <IconLink
-                        src="/icons/soundcloud-icon.svg"
-                        href={soundcloudUrl}
-                        alt="soundcloud"
                     />
                 )}
             </nav>

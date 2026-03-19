@@ -10,9 +10,9 @@
 
     > h2 {
         .uppercase;
-        font-family: var(--font-title);
-        letter-spacing: var(--letter-spacing-alt);
-        font-weight: 400;
+        font-family: var(--title-font);
+        letter-spacing: var(--alt-letter-spacing);
+        font-weight: 500;
     }
 
     > ul {
@@ -34,6 +34,13 @@
 
 .performancesCard {
     .flex-col;
+    --header-font-size: 1.6em;
+    --header-font-weight: 500;
+    --header-letter-spacing: 0.1em; // attempt to comp match font exactly
+    --description-font-weight: 400;
+    --icon-gap: 0.8em;
+    --icon-height: 2.5em;
+
     gap: 0.5em;
 
     > figure {
@@ -44,23 +51,23 @@
 
     > h3 {
         .uppercase;
-        font-size: 1.6em;
-        font-family: var(--font-title);
-        font-weight: 500;
-        letter-spacing: 0.1em;
+        font-size: var(--header-font-size);
+        font-family: var(--title-font);
+        font-weight: var(--header-font-weight);
+        letter-spacing: var(--header-letter-spacing);
     }
 
     > p {
-        font-family: var(--font-paragraph);
-        font-weight: 400;
+        font-family: var(--paragraph-font);
+        font-weight: var(--description-font-weight);
     }
 
     > nav {
         .flex;
-        gap: 0.8em;
+        gap: var(--icon-gap);
 
         > a {
-            height: 2.5em;
+            height: var(--icon-height);
             min-width: fit-content;
         }
     }

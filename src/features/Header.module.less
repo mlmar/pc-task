@@ -3,9 +3,12 @@
 .header {
     .flex;
     .uppercase;
+
+    --header-height: 6em;
+
     align-items: center;
     justify-content: space-around;
-    height: 6em;
+    height: var(--header-height);
     background: var(--bg-dark);
     overflow-x: auto;
     padding: 0 var(--padding-size);
@@ -14,11 +17,15 @@
 
 .figure {
     .flex;
+    --logo-height: 3.5em;
+    --logo-width: 19em;
+    --logo-caption-font-size: 0.95em;
+
     gap: 1em;
     height: 100%;
-    max-width: 19em;
-    min-width: 19em;
-    height: 3.5em;
+    max-width: var(--logo-width);
+    min-width: var(--logo-width);
+    height: var(--logo-height);
     align-items: center;
 
     > img {
@@ -27,7 +34,7 @@
 
     > figcaption {
         color: var(--fg-blue);
-        font-size: 0.95em;
+        font-size: var(--logo-caption-font-size);
     }
 }
 

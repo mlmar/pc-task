@@ -13,26 +13,29 @@
 
     > article {
         .flex-col;
+        --header-font-size: 2em;
+        --header-font-weight: 500;
+        --paragraph-font-size: 1.2em;
+
         flex-basis: 50%;
         gap: 1.4em;
         color: var(--fg-light);
         background: var(--bg-black);
         justify-content: center;
-        padding: calc(var(--padding-size) * 1.5);
-        padding-right: calc(var(--padding-size) * 2);
+        padding: calc(var(--padding-size) * 2);
 
         > h2 {
             .uppercase;
-            font-size: 1.9em;
-            font-family: var(--font-title);
-            font-weight: 500;
-            letter-spacing: var(--letter-spacing-alt);
+            font-size: var(--header-font-size);
+            font-family: var(--title-font);
+            font-weight: var(--header-font-weight);
+            letter-spacing: var(--alt-letter-spacing);
             line-height: 1.2;
         }
 
         > p {
-            font-size: 1.05em;
-            font-family: var(--font-paragraph);
+            font-size: var(--paragraph-font-size);
+            font-family: var(--paragraph-font);
             a {
                 font-weight: inherit;
                 color: inherit;
