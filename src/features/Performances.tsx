@@ -21,7 +21,7 @@ export function Performances() {
             </ul>
             <img
                 className={styles.blueCorner}
-                src="/blue-thing.webp"
+                src="blue-thing.webp"
                 alt="Blue"
             />
         </section>
@@ -48,35 +48,35 @@ function PerformanceCard({
             <nav>
                 {spotifyUrl && (
                     <IconLink
-                        src="/icons/spotify-icon.webp"
+                        src="icons/spotify-icon.webp"
                         href={spotifyUrl}
                         alt="spotify"
                     />
                 )}
                 {soundcloudUrl && (
                     <IconLink
-                        src="/icons/soundcloud-icon.svg"
+                        src="icons/soundcloud-icon.svg"
                         href={soundcloudUrl}
                         alt="soundcloud"
                     />
                 )}
                 {instagramUrl && (
                     <IconLink
-                        src="/icons/ig-2-icon.webp"
+                        src="icons/ig-2-icon.webp"
                         href={instagramUrl}
                         alt="instagram"
                     />
                 )}
                 {youtubeUrl && (
                     <IconLink
-                        src="/icons/yt-icon.webp"
+                        src="icons/yt-icon.webp"
                         href={youtubeUrl}
                         alt="youtube"
                     />
                 )}
                 {websiteUrl && (
                     <IconLink
-                        src="/icons/web-icon.webp"
+                        src="icons/web-icon.webp"
                         href={websiteUrl}
                         alt="website"
                     />

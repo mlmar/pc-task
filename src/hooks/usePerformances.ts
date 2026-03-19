@@ -10,7 +10,7 @@ export function usePerformances(): Performance[] {
 
     useEffect(() => {
         async function fetchPerformances() {
-            const response = await fetch('/performances.json');
+            const response = await fetch('performances.json');
             if (response.ok) {
                 setPerformances(await response.json())
             }

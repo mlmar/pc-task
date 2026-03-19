@@ -29,7 +29,7 @@ export function Header() {
         <header className={styles.header}>
             <figure className={styles.figure}>
                 <img
-                    src="/moustache-bash.svg"
+                    src="moustache-bash.svg"
                     alt="Moustache Bash"
                     loading="eager"
                 />
@@ -59,13 +59,13 @@ export function Header() {
                     <IconLink
                         className={styles.icon}
                         href={placeholderUrl}
-                        src="/icons/fb-icon.webp"
+                        src="icons/fb-icon.webp"
                         alt="Facebook"
                     />
                     <IconLink
                         className={styles.icon}
                         href={placeholderUrl}
-                        src="/icons/ig-icon.webp"
+                        src="icons/ig-icon.webp"
                         alt="Instagram"
                     />
                 </div>

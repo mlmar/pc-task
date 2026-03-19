@@ -9,13 +9,13 @@ export function Hero() {
         <section className={styles.hero}>
             <img
                 data-landscape
-                src="/hero.jpg"
+                src="hero.jpg"
                 alt="The Moustache Bash in San Diego"
                 loading="eager"
             />
             <img
                 data-mobile
-                src="/hero-mobile.jpg"
+                src="hero-mobile.jpg"
                 alt="The Moustache Bash in San Diego"
                 loading="eager"
             />

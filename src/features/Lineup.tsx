@@ -4,7 +4,7 @@ export function Lineup() {
     return (
         <section className={styles.lineup}>
             <figure>
-                <img src="/lineup.jpg" alt="Lineup" loading="lazy" />
+                <img src="lineup.jpg" alt="Lineup" loading="lazy" />
             </figure>
         </section>
     );

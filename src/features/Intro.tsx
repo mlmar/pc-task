@@ -5,13 +5,13 @@ export function Intro() {
         <section className={styles.intro}>
             <figure>
                 <img
-                    src="/intro.webp"
+                    src="intro.webp"
                     alt="Moustache Man with sunglasses"
                     loading="lazy"
                 />
                 <img
                     className={styles.sticker}
-                    src="/sticker.webp"
+                    src="sticker.webp"
                     alt="Sticker"
                     loading="lazy"
                 />

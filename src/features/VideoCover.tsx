@@ -13,7 +13,7 @@ export function VideoCover() {
             <a href="https://google.com">
                 <figure>
                     <img
-                        src="/video-cover.webp"
+                        src="video-cover.webp"
                         alt="Video Cover"
                         loading="lazy"
                     />
