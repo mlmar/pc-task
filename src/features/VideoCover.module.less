@@ -12,8 +12,9 @@
     --img-caption-font-size: 1.6em;
     --img-caption-font-weight: 500;
     --img-caption-arrow-font-size: 0.8em;
+    --padding-bottom: 6.5em;
 
-    padding: 0 var(--padding-size) 6.5em var(--padding-size);
+    padding: 0 var(--padding-size) var(--padding-bottom) var(--padding-size);
     justify-content: center;
     background: var(--bg-light);
 
@@ -64,5 +65,13 @@
 @media screen and (max-width: 768px) {
     .videoCover {
         --header-font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .videoCover {
+        --header-font-size: 1em;
+        --img-caption-font-size: 0.8em;
+        --padding-bottom: 1em;
     }
 }
