@@ -3,7 +3,7 @@
 ## General Tasks (Top to bottom)
 
 - [x] Header
-    - [x] Moustache image and description
+    - [x] Mustache image and description
     - [x] Navigation Links
     - [x] Tickets button
     - [x] Social media buttons
