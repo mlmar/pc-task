@@ -28,7 +28,7 @@ export function Intro() {
                     quantity of disco balls set the scene as we boogied into the
                     night for a party unanimously known as the best Bash of all
                     time. Come Saturday, March 23rd, we'll be leveling up yet
-                    again. stay tuned&mdash;don't want to miss this one! Follow{" "}
+                    again. Stay tuned&mdash;don't want to miss this one! Follow{" "}
                     <a href="https://google.com">@TheMoustacheBash</a> and
                     subscribe to our email list to be the first to know when
                     tickets go on sale.
